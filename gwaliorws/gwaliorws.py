@@ -21,6 +21,11 @@ from flask import Flask, Response
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/services')
 def services():
-    return Response('gwaliorws', mimetype='text/plain')
+    return [
+        {'name': 'test1'},
+        {'name': 'test'}
+    ]
+
+

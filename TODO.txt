@@ -1,1 +1,2 @@
-issue001-setup: Setup the gwalior repository.
+[issue02-skeleton]: Define the API [skeleton]
+issue001-setup: Setup the gwalior repository. [DONE]
