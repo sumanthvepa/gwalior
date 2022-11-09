@@ -34,6 +34,11 @@ def status(service_name):
     return {'status': 'stopped'}
 
 
-@app.route('/<string:service_name/start')
+@app.route('/<string:service_name>/start')
 def start(service_name):
+    return '', 200
+
+
+@app.route('/<string:service_name>/stop')
+def stop(service_name):
     return '', 200
