@@ -20,7 +20,6 @@ from flask import Flask, Response
 
 app = Flask(__name__)
 
-
 @app.route('/services')
 def services():
     return [
@@ -28,4 +27,8 @@ def services():
         {'name': 'test'}
     ]
 
+
+@app.route('/<string:service_name>/status')
+def status(service_name):
+    return {'status': 'stopped'}
 
