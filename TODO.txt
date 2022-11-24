@@ -1,3 +1,6 @@
+issue003-minimal-implementation: 
+  Implement a minimally functional web service that can start and
+  stop the hello web service
 issue02-skeleton:
   Define the API with a skeleton implementation [DONE]
 issue001-setup:
